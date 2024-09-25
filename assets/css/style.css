@@ -77,3 +77,25 @@ body {
     font-style: italic;
     color: #d0d0d0;
 }
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--orange {
+    color: white;
+    background-color: #DB931A;
+    border-color: #DB931A;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    background-color: #e3af56;
+    border-color: #e3af56;
+}
