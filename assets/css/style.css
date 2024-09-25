@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--orange {
+    background-color: #DB931A;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -42,12 +49,20 @@ body {
     background-color: rgba(0, 0, 0, .5);
 }
 
-.quotes-container {
+.quotes-container {}
 
+.features-container {}
+
+/* Page headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
 }
 
-.features-container {
-
+.page-header h2 {
+    margin-top: 0;
 }
 
 /* Block dividers */
@@ -56,14 +71,22 @@ body {
     width: 75px;
     height: 5px;
     border: 0px;
+    background-color: #424242;
 }
 
 .block-divider--orange {
     background-color: #DB931A;
 }
 
-.block-divider-short {
+.block-divider--short {
     width: 35px;
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
